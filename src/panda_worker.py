@@ -80,5 +80,5 @@ def get_datap(duration):
     # Print the rise and fall DataFrame
     print(rise_fall_df)
     plt.close()
-    slopes_only_df.to_csv('rsrc/rise_fall_data.txt', sep='~', index=False)
-
+    # slopes_only_df.to_csv('rsrc/rise_fall_data.txt', sep='~', index=False)
+    return rise_fall_df.to_json(orient='records')

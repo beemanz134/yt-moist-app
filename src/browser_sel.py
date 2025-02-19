@@ -9,7 +9,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support import expected_conditions as EC
 
-from imageworker import image_worker
+from .imageworker import image_worker
 
 
 # -check url is a youtube video link

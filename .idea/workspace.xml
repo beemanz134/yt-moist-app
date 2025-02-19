@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="998bae47-ca1f-4d28-a952-0faa40adefdd" name="Changes" comment="" />
+    <list default="true" id="998bae47-ca1f-4d28-a952-0faa40adefdd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/test_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/browser_sel.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/browser_sel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/panda_worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/panda_worker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/script_runner.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests in test_app.py.executor": "Run",
     "Python.app.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -38,6 +47,28 @@
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Python tests in test_app.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="yt-moist-app" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_app.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in test_app.py" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
