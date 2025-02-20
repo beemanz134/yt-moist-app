@@ -20,10 +20,10 @@ class APItest(unittest.TestCase):
         self.assertEqual(response.status_code, 400)
         self.assertEqual(response.json, {'error': 'Invalid URL provided'})
 
-        def test_moist_inp_valid_data(self):
-            response = self.client.post('/inp', json={'data': 'https://www.youtube.com/watch?v=xxzw7-sCdnQ'})
-            self.assertEqual(response.status_code, 200)
-            self.assertIn('result', response.json)
+    def test_moist_inp_valid_data(self):
+        response = self.client.post('/inp', json={'data': 'https://www.youtube.com/watch?v=xxzw7-sCdnQ'})
+        self.assertEqual(response.status_code, 200)
+        self.assertIn('result', response.json)
 
     if __name__ == '__main__':
         unittest.main()
